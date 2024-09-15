@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Model Calculator</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Core Model Calculator</h1>
+    <form id="core-form">
+        <label for="coreModel">Core Model (e.g., EE25/13/7):</label>
+        <input type="text" id="coreModel" name="coreModel" required>
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="results">
+        <p><strong>Core Volume:</strong> <span id="coreVolume"></span></p>
+        <p><strong>Effective Volume:</strong> <span id="effectiveVolume"></span></p>
+        <p><strong>Effective Length:</strong> <span id="effectiveLength"></span></p>
+        <p><strong>Effective Area:</strong> <span id="effectiveArea"></span></p>
+        <p><strong>Minimum Area:</strong> <span id="minArea"></span></p>
+    </div>
+</body>
+</html>
